@@ -1,7 +1,24 @@
 # Portfolio
 # 👨‍💻 Maikel — Administrador de Sistemas & DevOps Junior
 
-Hola, soy Maikel, técnico en administración de sistemas con experiencia en entornos Linux y Windows, scripting, virtualización, redes y despliegues de infraestructura. Me apasiona la automatización, la seguridad defensiva y crear herramientas útiles para usuarios y equipos IT.
+Hola, soy Maikel (Miguel), técnico en administración de sistemas con experiencia en entornos Linux y Windows, scripting, virtualización, redes y despliegues de infraestructura. 
+Me apasiona la automatización, la seguridad defensiva, crear herramientas útiles para usuarios y equipos IT, el scripting y la ciberseguridad.
+
+---
+
+## 🛠️ Lenguajes de Programación
+
+A lo largo de mis proyectos y experiencias, he trabajado con diversos lenguajes de programación, entre los que destacan:
+
+- **Python:** Desarrollo de aplicaciones, automatización, scripting y monitorización de sistemas.
+- **PHP:** Programación web y desarrollo de aplicaciones backend.
+- **JavaScript:** Desarrollo frontend y scripts para aplicaciones web.
+- **PL/SQL:** Gestión y desarrollo de procedimientos almacenados y consultas en bases de datos Oracle.
+- **Bash:** Scripting para automatización de tareas, despliegue de infraestructuras y administración de sistemas Linux.
+- **PowerShell:** Automatización y diagnóstico en entornos Windows.
+- **SQL:** Consultas y gestión de bases de datos relacionales.
+
+Estos lenguajes me han permitido afrontar proyectos diversos, desde el desarrollo web hasta la administración de sistemas y la automatización de procesos complejos.
 
 ---
 
@@ -14,7 +31,7 @@ Hola, soy Maikel, técnico en administración de sistemas con experiencia en ent
 - Android (entorno aislado para ciberseguridad)
 
 ### 🧠 Servicios y administración
-- LDAP, DNS, DHCP, FTP, NFS, Samba, Apache
+- LDAP, DNS, DHCP, FTP, NFS, Samba, Apache, Nginx
 - Gestión de usuarios y roles
 - Automatización de tareas con scripts personalizados
 
@@ -29,40 +46,61 @@ Hola, soy Maikel, técnico en administración de sistemas con experiencia en ent
 - QEMU/KVM
 - Despliegue de nube privada educativa (`GoyaCloud`)
 
-### 🛡️ Ciberseguridad (defensiva)
-- Diagnóstico de errores con Visor de eventos
-- Scripts para detectar fallos del sistema
-- Pruebas de seguridad en Android (modo aislado)
-
 ---
 
-## 🧰 Proyectos destacados
+## 🛠️ Proyectos personales y académicos
 
-### 🛰️ GoyaCloud – Nube Privada para Institutos
-> Plataforma educativa en OpenStack con roles diferenciados (alumno, profesor, sysadmin), zona privada de máquinas, reglas de seguridad y control de recursos por usuario.
+### 🔧 GoyaCloud
+Despliegue completo de nube privada educativa con OpenStack (roles, redes, imágenes, cuotas, seguridad).
+- Automatización con scripts Bash: `gc-runonce`, `kolla.sh`.
+- Despliegue de demonio para conversión y subida de imágenes automática.
+- Despliegue de herramientas personalizadas para gestión del entorno.
 
-- Despliegue con Kolla-Ansible
-- Scripts Bash personalizados: `gc-runonce`, `kolla.sh`, `deploy-watcher`
-- Seguridad con cuotas, claves SSH y redes privadas
+### 🖨️ MPrinter
+Aplicación en Python para imprimir en sistemas Unix y NT.
+- Script de instalación para Unix y NT.
+- Permite imprimir desde CUPS o desde el servicio de impresión de Windows.
 
-### 🔎 Herramienta de diagnóstico en PowerShell
-> Script para detectar errores comunes en Windows: controladores, disco, cierres inesperados, eventos críticos...
+### 🔐 RemoteMaster
+Herramienta en Python para conexiones remotas (WinRM, SSH, SFTP, FTP) entre múltiples plataformas.
+- Incluye escaneo de red con Nmap y detección automática de SO.
+- Detección de SO
 
-- Análisis del Visor de eventos
-- Salida exportable y amigable
-- Uso previsto en soporte a clientes
+### 📈 MLogger
+Demonio de monitorización para Linux:
+- CPU, RAM, disco, logs, procesos, servicios críticos, conexiones.
+- Envío de alertas por correo y script instalador incluido.
+
+### 🧬 LDAP Manager & Join Script
+- Script completo para gestionar un dominio LDAP.
+- Script para unir equipos Linux a dominio LDAP.
 
 ---
 
 ## 📚 En aprendizaje
-- Seguridad ofensiva (por fases)
-- Bases de datos (uso en servicios internos)
+
+### Seguridad
+- Seguridad ofensiva y defensiva
+- Uso y configuración de herramientas de ciberseguridad (Wireshark, Metasploit, Nmap)
+- Desarrollo seguro y buenas prácticas en código
+
+### Programación y automatización
 - Python avanzado para automatización
-- Monitorización (Prometheus, Grafana)
+- Scripting en PowerShell y Bash
 
----
+### Administración de sistemas y redes
+- Administración avanzada de sistemas Linux y Windows
+- Redes y protocolos de comunicación
+- Monitorización y análisis de logs
 
-## 📬 Contacto
-- GitHub: [github.com/tuusuario](https://github.com/tuusuario)
-- Correo: [tucorreo@ejemplo.com](mailto:tucorreo@ejemplo.com)
+### Contenerización y virtualización
+- Contenerización con Docker y Kubernetes
+
+### Bases de datos
+- Bases de datos y optimización de consultas (SQL y NoSQL)
+
+
+
+
+
  
